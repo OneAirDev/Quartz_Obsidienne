@@ -1,0 +1,27 @@
+/defaultoptions
+/defaultoptions saveOptions
+/defaultoptions saveKeys
+/datapack
+/datapack list
+/scoreboard objectives list
+/function SBP:check
+/defaultoptions saveKeys
+/give @s cobblemon:max_revive
+/give Le_7UP minecraft:golden_apple
+/defaultoptions saveOptions
+/defaultoptions saveKeys
+/datapack
+/datapack list
+/givepokemon gengar shiny radiant=radiant
+/givepokemon zapdos shiny radiant=radiant
+/givepokemon noibat
+/givepokemon noivern
+/givepokemon noivern shiny
+/givepokemon noivern shiny radiant=radiant
+/givepokemon swampert shiny radiant=radiant
+/givepokemon dusknoir shiny radiant=radiant
+/locate structure mega_showdown:megaroid
+/tp @s -1184 ~ -1024
+/givepokemon zapdos shiny radiant=radiant
+/givepokemon riolu shiny radiant=radiant
+/givepokemon lucario shiny radiant=radiant
