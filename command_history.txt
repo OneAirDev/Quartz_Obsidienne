@@ -25,3 +25,5 @@
 /givepokemon zapdos shiny radiant=radiant
 /givepokemon riolu shiny radiant=radiant
 /givepokemon lucario shiny radiant=radiant
+/help
+/pos

@@ -1,13 +1,19 @@
 {
-  "mega_showdown:mega_showdown/root": {
-    "criteria": {
-      "root": "2026-02-28 00:06:40 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "unlock_right_away": "2026-02-28 00:05:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:sunflower_plains": "2026-02-28 00:05:59 +0100"
+    },
+    "done": false
+  },
+  "mega_showdown:mega_showdown/root": {
+    "criteria": {
+      "root": "2026-02-28 00:06:40 +0100"
     },
     "done": true
   },
@@ -17,11 +23,77 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "cobblemon:recipes/held/punching_glove": {
     "criteria": {
-      "minecraft:sunflower_plains": "2026-02-28 00:05:59 +0100"
+      "has_wool": "2026-02-28 00:22:59 +0100"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2026-02-28 00:22:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2026-02-28 00:23:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_carpet": {
+    "criteria": {
+      "has_red_wool": "2026-02-28 00:22:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2026-02-28 00:23:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_banner": {
+    "criteria": {
+      "has_red_wool": "2026-02-28 00:22:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2026-02-28 00:23:02 +0100"
+    },
+    "done": true
+  },
+  "mega_showdown:recipes/misc/ash_cap": {
+    "criteria": {
+      "has_wool": "2026-02-28 00:23:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2026-02-28 00:23:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2026-02-28 00:23:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2026-02-28 00:23:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_bed": {
+    "criteria": {
+      "has_red_wool": "2026-02-28 00:22:59 +0100"
+    },
+    "done": true
   },
   "DataVersion": 3955
 }
