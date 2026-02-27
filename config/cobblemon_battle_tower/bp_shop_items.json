@@ -82,42 +82,42 @@
     {
       "id": "health_candy",
       "display_name": "Health Candy",
-      "bp_cost": 2,
+      "bp_cost": 10,
       "item_id": "cobblemon:health_candy",
       "quantity": 1
     },
     {
       "id": "mighty_candy",
       "display_name": "Mighty Candy",
-      "bp_cost": 2,
+      "bp_cost": 10,
       "item_id": "cobblemon:mighty_candy",
       "quantity": 1
     },
     {
       "id": "tough_candy",
       "display_name": "Tough Candy",
-      "bp_cost": 2,
+      "bp_cost": 10,
       "item_id": "cobblemon:tough_candy",
       "quantity": 1
     },
     {
       "id": "smart_candy",
       "display_name": "Smart Candy",
-      "bp_cost": 2,
+      "bp_cost": 10,
       "item_id": "cobblemon:smart_candy",
       "quantity": 1
     },
     {
       "id": "courage_candy",
       "display_name": "Courage Candy",
-      "bp_cost": 2,
+      "bp_cost": 10,
       "item_id": "cobblemon:courage_candy",
       "quantity": 1
     },
     {
       "id": "quick_candy",
       "display_name": "Quick Candy",
-      "bp_cost": 2,
+      "bp_cost": 10,
       "item_id": "cobblemon:quick_candy",
       "quantity": 1
     },
