@@ -1,0 +1,27 @@
+{
+  "mega_showdown:mega_showdown/root": {
+    "criteria": {
+      "root": "2026-02-28 00:06:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-02-28 00:05:59 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:root": {
+    "criteria": {
+      "picked_starter": "2026-02-28 00:06:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:sunflower_plains": "2026-02-28 00:05:59 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3955
+}
