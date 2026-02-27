@@ -1,12 +1,11 @@
 {
   "runCooldownSeconds": 0,
   "maxLegendaries": 0,
-  "allowNpcDynamax": false,
+  "allowNpcDynamax": true,
   "allowNpcTera": true,
   "allowNpcMega": true,
   "bannedPokemon": [],
   "allowRandomTeamMode": true,
-  "battleArenas": [
-    { "id": "tower_plaza_1", "dimension": "minecraft:overworld", "x": -68.664, "y": 76, "z": 246.479, "facing": "north" }
-  ]
+  "battleArenas": [{ "id": "tower_plaza_1", "dimension": "minecraft:overworld", "x": -68.469, "y": 76, "z": 249.367, "facing": "north" }
+]
 }
