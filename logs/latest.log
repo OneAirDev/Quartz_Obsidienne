@@ -46725,3 +46725,5 @@ java.nio.file.NoSuchFileException: /epic-terrain_compatible_pack.png
 [00:12:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
 [00:12:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
 [00:12:59] [Render thread/INFO]: Stopping worker threads
+[00:20:08] [CullThread/INFO]: [STDOUT]: Shutting down culling task!
+[00:20:08] [Render thread/INFO]: Stopping!
