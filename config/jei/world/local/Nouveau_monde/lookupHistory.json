@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"zamega:chesnaughtite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"zamega:baxcalibrite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"zamega:barbaracite"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
