@@ -27,3 +27,6 @@
 /givepokemon lucario shiny radiant=radiant
 /help
 /pos
+/pokegive zoroark hisuian=true
+/pokegive snorlax dynamax_form
+/reload

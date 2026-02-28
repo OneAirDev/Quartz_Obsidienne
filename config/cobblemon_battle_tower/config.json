@@ -6,7 +6,5 @@
   "allowNpcMega": true,
   "bannedPokemon": [],
   "allowRandomTeamMode": true,
-  "battleArenas": [{ "id": "tower_plaza_1", "dimension": "minecraft:overworld", "x": -68.469, "y": 76, "z": 249.367, "facing": "north" },
-  { "id": "tower_plaza_2", "dimension": "minecraft:overworld", "x": -68.469, "y": 76, "z": 249.367, "facing": "north" }
-]
+  "battleArenas": []
 }
