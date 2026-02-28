@@ -33,49 +33,49 @@
     {
       "id": "ability_patch",
       "display_name": "Ability Patch",
-      "bp_cost": 10,
+      "bp_cost": 15,
       "item_id": "cobblemon:ability_patch",
       "quantity": 1
     },
     {
       "id": "rare_candy",
       "display_name": "Rare Candy",
-      "bp_cost": 5,
+      "bp_cost": 4,
       "item_id": "cobblemon:rare_candy",
       "quantity": 1
     },
     {
       "id": "exp_candy_xs",
       "display_name": "Exp Candy XS",
-      "bp_cost": 1,
+      "bp_cost": 2,
       "item_id": "cobblemon:exp_candy_xs",
-      "quantity": 1
+      "quantity": 12
     },
     {
       "id": "exp_candy_s",
       "display_name": "Exp Candy S",
-      "bp_cost": 2,
+      "bp_cost": 4,
       "item_id": "cobblemon:exp_candy_s",
-      "quantity": 1
+      "quantity": 8
     },
     {
       "id": "exp_candy_m",
       "display_name": "Exp Candy M",
-      "bp_cost": 3,
+      "bp_cost": 6,
       "item_id": "cobblemon:exp_candy_m",
-      "quantity": 1
+      "quantity": 4
     },
     {
       "id": "exp_candy_l",
       "display_name": "Exp Candy L",
-      "bp_cost": 4,
+      "bp_cost": 8,
       "item_id": "cobblemon:exp_candy_l",
-      "quantity": 1
+      "quantity": 2
     },
     {
       "id": "exp_candy_xl",
       "display_name": "Exp Candy XL",
-      "bp_cost": 5,
+      "bp_cost": 10,
       "item_id": "cobblemon:exp_candy_xl",
       "quantity": 1
     },
@@ -122,93 +122,51 @@
       "quantity": 1
     },
     {
-      "id": "sickly_candy",
-      "display_name": "Sickly Candy",
-      "bp_cost": 2,
-      "item_id": "cobblemon:sickly_candy",
-      "quantity": 1
-    },
-    {
-      "id": "weak_candy",
-      "display_name": "Weak Candy",
-      "bp_cost": 2,
-      "item_id": "cobblemon:weak_candy",
-      "quantity": 1
-    },
-    {
-      "id": "brittle_candy",
-      "display_name": "Brittle Candy",
-      "bp_cost": 2,
-      "item_id": "cobblemon:brittle_candy",
-      "quantity": 1
-    },
-    {
-      "id": "numb_candy",
-      "display_name": "Numb Candy",
-      "bp_cost": 2,
-      "item_id": "cobblemon:numb_candy",
-      "quantity": 1
-    },
-    {
-      "id": "coward_candy",
-      "display_name": "Coward Candy",
-      "bp_cost": 2,
-      "item_id": "cobblemon:coward_candy",
-      "quantity": 1
-    },
-    {
-      "id": "slow_candy",
-      "display_name": "Slow Candy",
-      "bp_cost": 2,
-      "item_id": "cobblemon:slow_candy",
-      "quantity": 1
-    },
-    {
       "id": "pp_max",
       "display_name": "PP Max",
       "bp_cost": 5,
       "item_id": "cobblemon:pp_max",
-      "quantity": 1
+      "quantity": 2
     },
     {
       "id": "protein",
       "display_name": "Protein",
-      "bp_cost": 2,
+      "bp_cost": 3,
       "item_id": "cobblemon:protein",
       "quantity": 1
     },
     {
       "id": "iron",
       "display_name": "Iron",
-      "bp_cost": 2,
+      "bp_cost": 3,
       "item_id": "cobblemon:iron",
       "quantity": 1
     },
     {
       "id": "calcium",
       "display_name": "Calcium",
-      "bp_cost": 2,
+      "bp_cost": 3,
       "item_id": "cobblemon:calcium",
       "quantity": 1
     },
     {
       "id": "zinc",
       "display_name": "Zinc",
-      "bp_cost": 2,
+      "bp_cost": 3,
       "item_id": "cobblemon:zinc",
       "quantity": 1
     },
     {
       "id": "carbos",
       "display_name": "Carbos",
-      "bp_cost": 2,
+      "bp_cost": 3,
       "item_id": "cobblemon:carbos",
       "quantity": 1
     },
     {
       "id": "hp_up",
       "display_name": "HP Up",
-      "bp_cost": 2,
+      "bp_cost": 3,
       "item_id": "cobblemon:hp_up",
       "quantity": 1
     },
