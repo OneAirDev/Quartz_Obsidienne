@@ -7,7 +7,9 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:sunflower_plains": "2026-02-28 00:05:59 +0100"
+      "minecraft:deep_dark": "2026-03-01 22:35:35 +0100",
+      "minecraft:sunflower_plains": "2026-02-28 00:05:59 +0100",
+      "minecraft:cherry_grove": "2026-03-01 22:35:20 +0100"
     },
     "done": false
   },
@@ -122,6 +124,338 @@
   "biomeswevegone:biomeswevegone/root": {
     "criteria": {
       "tick": "2026-03-01 19:22:59 +0100"
+    },
+    "done": true
+  },
+  "deeperdarker:main/enter_otherside": {
+    "criteria": {
+      "otherside": "2026-03-01 22:37:30 +0100"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/packed_ice_freezing": {
+    "criteria": {
+      "has_water_bucket": "2026-03-01 22:55:02 +0100"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/transportation/echo_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/willow_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "aether:recipes/transportation/skyroot_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/transportation/bloom_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/pine_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-03-01 22:38:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/transportation/saccharine_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "aether:the_aether": {
+    "criteria": {
+      "the_aether": "2026-03-01 22:55:15 +0100"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/rainbow_eucalyptus_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/spirit_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "deeperdarker:main/explore_otherside": {
+    "criteria": {
+      "overcast_columns": "2026-03-01 22:38:32 +0100",
+      "blooming_caverns": "2026-03-01 22:37:30 +0100",
+      "echoing_forest": "2026-03-01 22:38:16 +0100"
+    },
+    "done": false
+  },
+  "biomeswevegone:recipes/transportation/mahogany_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/baobab_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/combat/sonorous_staff": {
+    "criteria": {
+      "has_heart_of_the_deep": "2026-03-01 22:33:49 +0100"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/aspen_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2026-03-01 22:54:53 +0100"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/skyris_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2026-03-01 22:55:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/fir_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/redwood_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/white_mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/cypress_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/cika_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/ebony_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "deeperdarker:main/root": {
+    "criteria": {
+      "deep_dark": "2026-03-01 22:35:35 +0100"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/holly_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/transportation/apricorn_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/maple_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/blue_ice_freezing": {
+    "criteria": {
+      "has_water_bucket": "2026-03-01 22:55:02 +0100"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/sakura_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/florus_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/ice_from_bucket_freezing": {
+    "criteria": {
+      "has_water_bucket": "2026-03-01 22:55:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "deeperdarker:main/find_ancient_city": {
+    "criteria": {
+      "ancient_city": "2026-03-01 22:36:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/blue_enchanted_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/witch_hazel_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/jacaranda_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/palm_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/zelkova_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/green_enchanted_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "aether:enter_aether": {
+    "criteria": {
+      "enter_aether": "2026-03-01 22:55:15 +0100"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-03-01 22:38:31 +0100"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/ironwood_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
+    },
+    "done": true
+  },
+  "aether:blue_aercloud": {
+    "criteria": {
+      "blue_aercloud": "2026-03-01 22:55:41 +0100"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/flint_and_steel_repairing": {
+    "criteria": {
+      "has_flint_and_steel": "2026-03-01 22:34:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2026-03-01 22:37:40 +0100"
     },
     "done": true
   },

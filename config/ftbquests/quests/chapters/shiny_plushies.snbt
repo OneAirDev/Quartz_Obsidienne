@@ -3,9 +3,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "shiny_plushies"
-	group: "373657F33DE2511A"
+	group: ""
 	icon: {
-		id: "pokeblocks:gigantic_pokedoll_shiny_squirtle"
+		components: {
+			"ftbquests:missing_item": "pokeblocks:gigantic_pokedoll_shiny_squirtle"
+		}
+		id: "ftbquests:missing_item"
 	}
 	id: "4F7746C1CDA48F41"
 	images: [
@@ -26,7 +29,7 @@
 			y: 4.0d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -41,7 +44,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "778A3EEA7D100AF0"
-				table_id: 7433406060643308099L
 				type: "random"
 			}]
 			shape: "diamond"
@@ -115,13 +117,10 @@
 					id: "52AFB24A8E379309"
 					item: {
 						components: {
-							"academy:outfit_entry": {
-								id: "sailor_shirt"
-								type: "value"
-							}
+							"ftbquests:missing_item": "academy:outfit"
 						}
 						count: 1
-						id: "academy:outfit"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -129,13 +128,10 @@
 					id: "495B131740758D5A"
 					item: {
 						components: {
-							"academy:outfit_entry": {
-								id: "sailor_skirt"
-								type: "value"
-							}
+							"ftbquests:missing_item": "academy:outfit"
 						}
 						count: 1
-						id: "academy:outfit"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -143,21 +139,21 @@
 					id: "58F094DF76E3478B"
 					item: {
 						components: {
-							"academy:outfit_entry": {
-								id: "sailor_shoes"
-								type: "value"
-							}
+							"ftbquests:missing_item": "academy:outfit"
 						}
 						count: 1
-						id: "academy:outfit"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
 				{
 					id: "43A40FA0C3198D06"
 					item: {
+						components: {
+							"ftbquests:missing_item": "academy:lootbag_hats"
+						}
 						count: 1
-						id: "academy:lootbag_hats"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -173,8 +169,11 @@
 				{
 					id: "17BCD6FC292368D5"
 					item: {
+						components: {
+							"ftbquests:missing_item": "academy:lootbag_mythsandlegends"
+						}
 						count: 1
-						id: "academy:lootbag_mythsandlegends"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -183,12 +182,13 @@
 			size: 1.5d
 			tasks: [{
 				icon: {
-					id: "mega_showdown:furfrou_upgrade"
+					components: {
+						"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+					}
+					id: "ftbquests:missing_item"
 				}
 				id: "238F64F274F5D6E9"
-				key: "shinypokedoll"
-				type: "extraquests:key_value"
-				value: 40L
+				type: "custom"
 			}]
 			x: 0.0d
 			y: -3.75d
@@ -199,23 +199,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "42C1FB2C6E113011"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "74429A3C112FDB87"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "1C33B03969AE4B76"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_wooper" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_wooper" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -227,23 +227,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "303503F0D6CE96B0"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "2961B1DD222B7F73"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "4FEEFA9C6500AABD"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_quagsire" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_quagsire" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -255,23 +255,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "5F27B2E904749DC4"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "572FB620DBF890F8"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "723806870C27700C"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_gastly" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_gastly" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -283,23 +283,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "6388DB4BC5D9BEE0"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "258E1F74B3954DA2"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "6DD0E30DB41FBA5B"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_gengar" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_gengar" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 2.5d
@@ -311,23 +311,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "53B65FCE6FBF27BE"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "18A61BF0291AA3A0"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "7DE74921D46D9941"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_drifloon" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_drifloon" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -339,23 +339,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "5D7083BA7358CB70"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "1D87A455AFEAC7D6"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "3D9E3C6534E0D937"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_rookidee" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_rookidee" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -367,23 +367,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "4AE2E916FE30DD18"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "5616D70801E117D0"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "57D2BEAC653AC5CA"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_corvisquire" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_corvisquire" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -395,23 +395,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "5479917501868A71"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "3C271F57B3E7706A"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "7BD8C57D3A96855B"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_corviknight" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_corviknight" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -423,23 +423,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "47A604E25C6E08D3"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "5551D5E074789092"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "07E4EA823BD0AD54"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_stonjourner" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_stonjourner" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -451,23 +451,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "40D6A18D42637897"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "555F42522F5C9734"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "2D16C856CDB32D4B"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_calyrex" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_calyrex" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -479,23 +479,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "6CC07284E14D9B17"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "081D2217EC9FF101"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "45CD2DC1C2FD1E4E"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_bulbasaur" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_bulbasaur" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -507,23 +507,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "1207AF732158BD30"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "2D4717CE997D2F53"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "145066D51AACD0FB"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_squirtle" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_squirtle" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -535,23 +535,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "51F6BCB70C09F776"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "3258D8EEDE7CBDCE"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "1E8E78AC0AA6948B"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_charmander" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_charmander" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -8.5d
@@ -563,23 +563,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "080C4A636D30A755"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "7B416499DC971EA7"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "5590AD0F1AB88039"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_lickitung" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_lickitung" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -591,23 +591,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "38FF328707B66AFB"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "36EA14C3DF66622D"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "02B0F0E9FC719834"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_mareep" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_mareep" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -619,23 +619,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "1929D586063796FC"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "5292CAF5DEDB9F24"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "69C619AE40DF6C88"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_smoliv" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_smoliv" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -647,23 +647,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "6F3420A594387FAF"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "6A2A591FD8C985D3"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "70E47DED51374C61"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_flaaffy" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_flaaffy" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -8.5d
@@ -675,23 +675,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "354AB0771A5C74CB"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "38E5E7F623FDE72F"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "542633BB1F210B08"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_dolliv" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_dolliv" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -703,23 +703,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "7A2643F3A4CB87E4"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "0B8E083E1F0651AB"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "12D2D11B7CD34DB2"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_arboliva" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_arboliva" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -731,23 +731,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "5A9CDF1DD60A38D5"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "428F5EC5A4A6A45B"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "1223C7126CB771DA"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_snorlax" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_snorlax" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -759,23 +759,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "29F892718EC19FAC"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "2AE33ADC769F35B9"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "0D3EA2F4C506098B"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_ampharos" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_ampharos" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -787,23 +787,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "3454EBEC4E0E1B0B"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "767C97F353E2CD68"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "14FEBB36E44E4FB4"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_sentret" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_sentret" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -815,23 +815,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "02AE2522A6F0E1AD"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "01EDD5AD69119848"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "4A8F96D85E234C86"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_furret" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_furret" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -843,23 +843,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "44E08F10A6FA9C35"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "70FC9288F47AD515"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "497CCC1E29743FB6"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_munchlax" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_munchlax" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -871,23 +871,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "1153C968830FF21F"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "07063B6DB5A84BA8"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "736DC873387FA561"
-				item: { count: 1, id: "pokeblocks:shiny_applin_basket" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:shiny_applin_basket" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -899,23 +899,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "4B0A8FC068DFE72B"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "3F7981CE8C309BC0"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "436ACCC0199B10B2"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_rabsca" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_rabsca" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 2.5d
@@ -927,23 +927,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "277014B586CFB975"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "15BEFF8D82A68CD7"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "774F9927AA56DD55"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_rellor" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_rellor" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -955,23 +955,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "3213A1EAE5E697EE"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "37B30F20D516B4F5"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "0C11935904AC7B96"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_wartortle" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_wartortle" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -983,23 +983,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "7D9B42587D3AEE16"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "471F5677BC60FAA2"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "36DC0FBE6C189D72"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_sableye" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_sableye" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -1010,23 +1010,23 @@
 			rewards: [
 				{
 					id: "5E5E70E507E553B6"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "169B02E677ABC122"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "1A6FD3EE9E0D9425"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_absol" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_absol" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -8.5d
@@ -1038,23 +1038,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "7DAC0E688F45D626"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "7E19725C99EFC910"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "33258B0CCE8C9831"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_happiny" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_happiny" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -1066,23 +1066,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "199FAB169450BB61"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "71FEB592D07BE1AA"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "33C1C8F4C558E04A"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_ivysaur" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_ivysaur" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -1094,23 +1094,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "1224D8869C34DABE"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "0B9DADBCE4A63EAE"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "3EF5EC2E13E7B0E7"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_venusaur" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_venusaur" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -1122,23 +1122,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "3F78AE6A7C004CBB"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "296B882A15B3F003"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "3D66AB6538720C8D"
-				item: { count: 1, id: "pokeblocks:shiny_magikarp_fishbowl" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:shiny_magikarp_fishbowl" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -1150,23 +1150,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "16BE1C1DEA1BECEA"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "7F20A6F73280C6E7"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "496C4BDFEEFFD7CE"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_blastoise" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_blastoise" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -1178,23 +1178,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "616C6517BA55A0F6"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "345627DA624082C4"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "2C3A0EC5D5E5D4F0"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_swinub" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_swinub" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -1.5d
@@ -1206,23 +1206,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "3C1DCDDE1C2B69DC"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "24B5DCFB80906005"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "67972FB00C59A418"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_snorunt" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_snorunt" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -1.5d
@@ -1234,23 +1234,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "6FA530A0958841CB"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "5C677307DC26190D"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "4350852167FE94BE"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_glalie" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_glalie" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -1262,23 +1262,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "2B5B77568F38437D"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "626E9537CF3377D1"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "2B872204F7E6DC8B"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_spheal" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_spheal" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -1290,23 +1290,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "38F844849512FE7C"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "73BF6DBF0862E20C"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "4EDA8BACF4F55160"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_luvdisc" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_luvdisc" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -1318,23 +1318,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "7D148F64DB7FDBD5"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "434AFF3A9D891CC1"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "249506027D016F75"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_riolu" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_riolu" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -1346,23 +1346,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "3A8D6A0075687184"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "5E12A0C7D94608D1"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "58CE54ED5026548B"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_froslass" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_froslass" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -1374,23 +1374,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "5B25DEAE5C579B71"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "1ADF5C937302483C"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "3F49F246A007245D"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_frigibax" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_frigibax" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -1402,23 +1402,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "5D245E0E04DD8693"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "67FFAB476EEE36D4"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "1820301556C754E0"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_snorunt_family" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_snorunt_family" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -1430,23 +1430,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "53EF2FA92D25C38E"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "3EF7B45E20943DF3"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "570EC60ED111BB6B"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_eevee" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_eevee" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -1458,23 +1458,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "677CDFC91AA70AC5"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "4A45770B303372C6"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "686AEE2EBCE7D8CE"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_sandygast" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_sandygast" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -1.5d
@@ -1486,23 +1486,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "2EAA80B382CEFD9E"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "53B89A83FF448CAB"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "3B8045EBB1F93AFA"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_palossand" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_palossand" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -8.5d
@@ -1514,23 +1514,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "08352CA37B1373AA"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "114C13CD7DA1B483"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "651508C3F3289A74"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_gholdengo" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_gholdengo" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -1542,23 +1542,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "2C92E367135335CE"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "46CEAD5C7D25D500"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "5160BA998CA60AA3"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_netherite_gholdengo" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_netherite_gholdengo" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -1570,23 +1570,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "238DF30C4F3C1970"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "4BBE154EF507863A"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "7FB8CC106A3A9B22"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_shellder" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_shellder" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -1598,23 +1598,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "69E98287EF9A88E1"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "673E64C741B99B15"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "3AFA3253F8BBCF01"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_cloyster" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_cloyster" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -1626,23 +1626,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "665D00BF75A853D7"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "5E98207FE23DAD10"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "27FE1AA5E7A6729F"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_wailmer" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_wailmer" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -1.5d
@@ -1654,23 +1654,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "25951AF17FFD86CB"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "06D6820D9245BEB1"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "1FFDE5EABB304B21"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_wailord" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_wailord" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -1682,23 +1682,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "644B75E5C154481B"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "1C2B0E5B1C6EA7EB"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "5C747E8AC4DC4E1E"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_tropius" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_tropius" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -1710,23 +1710,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "440469D31CBFA9CE"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "7984505F833E4CED"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "388CC2D8A6F76098"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_kyogre" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_kyogre" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -8.5d
@@ -1738,23 +1738,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "4B088A06E7ABDA99"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "667882E67B54EE27"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "4AFFA2F066573913"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_phantump" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_phantump" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -1766,23 +1766,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "0493F3CB3D96151F"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "68C88C30C770A83A"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "7EAA4D46A4660E77"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_pumpkaboo" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_pumpkaboo" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -1794,23 +1794,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "07F165FF017F4D24"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "2CC67FB2DE3CF542"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "1A92D6F9E0A97FD7"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_trevenant" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_trevenant" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -1822,23 +1822,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "4EFBCF28E84F7F6A"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "08B51AABC8E8C761"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "4127A84DC08B1262"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_marshadow" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_marshadow" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 2.5d
@@ -1850,23 +1850,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "3608E314155D58F3"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "3050BE5B6EFF61A3"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "5F92475F0E81BB9C"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_marshadow_zenith" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_marshadow_zenith" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -1878,23 +1878,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "24524D2AA4D87D46"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "5CBBDAC3C586DCC0"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "22FA4E7C08C8A8CD"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_bellossom" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_bellossom" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 2.5d
@@ -1906,23 +1906,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "60F490C7CCDCC5DA"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "662CA2F29F53A0E5"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "7EB02AD69D9E9A2E"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_rowlet" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_rowlet" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -1934,23 +1934,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "57D73B159E3CF017"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "7851E855B098A6C4"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "3283FE0BF1677A9A"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_mimikyu" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_mimikyu" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -1962,23 +1962,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "37855A7376E7B53A"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "424DEF8FAAFDFAF5"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "22324BFF6C5A0B34"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_piloswine" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_piloswine" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -1990,23 +1990,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "04EA05DA33629D20"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "7D11A37A4666994F"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "7BC1231450662395"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_cubchoo" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_cubchoo" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -2018,23 +2018,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "643C7F5906090017"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "4920E3C2F15B3052"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "7584FFFA20999088"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_beartic" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_beartic" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -2046,23 +2046,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "590A49A2B2B77689"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "48E509C54EFFC0B8"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "7EA8B47EDB9C9D28"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_eiscue" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_eiscue" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -2074,23 +2074,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "142E7823DCDE4D68"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "51A59A90206459C8"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "6FDFBE0587E34474"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_cetoddle" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_cetoddle" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -2102,23 +2102,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "108697C57124A0D8"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "634B592B0F0F0C9D"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "6EB4FB8454600676"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_delibird" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_delibird" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 2.5d
@@ -2130,23 +2130,23 @@
 				{
 					exclude_from_claim_all: true
 					id: "5CE139543B3F5C7A"
-					table_id: 5161609500502459399L
 					type: "random"
 				}
 				{
 					auto: "enabled"
 					icon: {
-						id: "mega_showdown:furfrou_upgrade"
+						components: {
+							"ftbquests:missing_item": "mega_showdown:furfrou_upgrade"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "51D1B949C4BBD4D5"
-					key: "shinypokedoll"
-					type: "extraquests:key_value"
-					value: 1L
+					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "02966964CBC66A63"
-				item: { count: 1, id: "pokeblocks:pokedoll_shiny_treecko" }
+				item: { components: { "ftbquests:missing_item": "pokeblocks:pokedoll_shiny_treecko" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -2160,31 +2160,36 @@
 			rewards: [{
 				auto: "enabled"
 				id: "2C8092E1AE491448"
-				table_id: 1841011148502801149L
 				type: "random"
 			}]
 			tasks: [{
 				action: "release"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					id: "cobblemon:fairy_feather"
 				}
 				id: "0CEA534F0FC11460"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: true
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 0.0d
@@ -2198,31 +2203,36 @@
 			rewards: [{
 				auto: "enabled"
 				id: "787771E695013A5D"
-				table_id: 328511416735603761L
 				type: "random"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: "academy:safari"
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					id: "cobblemon:safari_ball"
 				}
 				id: "7675B6068D650E95"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:beartic"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 0.0d
@@ -2236,31 +2246,36 @@
 			rewards: [{
 				auto: "enabled"
 				id: "14AB3819993017ED"
-				table_id: 6927792904498662734L
 				type: "random"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: "academy:safari"
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					id: "cobblemon:safari_ball"
 				}
 				id: "0A87A52526C542BF"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:phantump"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 1.0d
@@ -2274,31 +2289,36 @@
 			rewards: [{
 				auto: "enabled"
 				id: "1732BAD1D840F1DB"
-				table_id: 9004214824023843496L
 				type: "random"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: "academy:safari"
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					id: "cobblemon:safari_ball"
 				}
 				id: "6956B84E776F1A04"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:sableye"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 2.0d
@@ -2312,31 +2332,36 @@
 			rewards: [{
 				auto: "enabled"
 				id: "7E7408840EC0F51B"
-				table_id: 6975785991455203242L
 				type: "random"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: "academy:safari"
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					id: "cobblemon:safari_ball"
 				}
 				id: "69A956C1D04B1E35"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:trevenant"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 3.0d
@@ -2350,31 +2375,36 @@
 			rewards: [{
 				auto: "enabled"
 				id: "7A2C3998554992E9"
-				table_id: 7405097092294532651L
 				type: "random"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: "academy:safari"
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					id: "cobblemon:safari_ball"
 				}
 				id: "551CE83D5BB5146B"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:luvdisc"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: -1.0d
@@ -2388,31 +2418,36 @@
 			rewards: [{
 				auto: "enabled"
 				id: "3D4A39AD5412CFFF"
-				table_id: 5789531045134909351L
 				type: "random"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: "academy:safari"
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					id: "cobblemon:safari_ball"
 				}
 				id: "1FE53C7A146AFAB6"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:gastly"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: -2.0d
@@ -2426,31 +2461,36 @@
 			rewards: [{
 				auto: "enabled"
 				id: "5EEB2EF60764CC09"
-				table_id: 1627660149435844564L
 				type: "random"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: "academy:safari"
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					id: "cobblemon:safari_ball"
 				}
 				id: "1FCFF3F1792E3572"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:wailord"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: -3.0d
@@ -2465,19 +2505,24 @@
 				auto: "enabled"
 				id: "13E1F7F8773426ED"
 				item: {
+					components: {
+						"ftbquests:missing_item": "pokeblocks:pokedoll_shiny_eevee"
+					}
 					count: 1
-					id: "pokeblocks:pokedoll_shiny_eevee"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					components: {
 						"ftbquests:icon": "cobblemon:textures/gui/summary/icon_shiny.png"
@@ -2486,15 +2531,19 @@
 				}
 				id: "359BDED621C0ADA5"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:eevee"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: true
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 0.0d
@@ -2509,19 +2558,24 @@
 				auto: "enabled"
 				id: "3CF71CB30B14BC9A"
 				item: {
+					components: {
+						"ftbquests:missing_item": "pokeblocks:pokedoll_shiny_quagsire"
+					}
 					count: 1
-					id: "pokeblocks:pokedoll_shiny_quagsire"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					components: {
 						"ftbquests:icon": "cobblemon:textures/gui/summary/icon_shiny.png"
@@ -2530,15 +2584,19 @@
 				}
 				id: "7CF9B59DBFB8E223"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:quagsire"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: true
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: -1.0d
@@ -2553,19 +2611,24 @@
 				auto: "enabled"
 				id: "06C3A87C8815C449"
 				item: {
+					components: {
+						"ftbquests:missing_item": "pokeblocks:pokedoll_shiny_froslass"
+					}
 					count: 1
-					id: "pokeblocks:pokedoll_shiny_froslass"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					components: {
 						"ftbquests:icon": "cobblemon:textures/gui/summary/icon_shiny.png"
@@ -2574,15 +2637,19 @@
 				}
 				id: "3E72E09681FA3868"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:froslass"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: true
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: -2.0d
@@ -2597,19 +2664,24 @@
 				auto: "enabled"
 				id: "620FDE4A65DD5286"
 				item: {
+					components: {
+						"ftbquests:missing_item": "pokeblocks:pokedoll_shiny_wailmer"
+					}
 					count: 1
-					id: "pokeblocks:pokedoll_shiny_wailmer"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					components: {
 						"ftbquests:icon": "cobblemon:textures/gui/summary/icon_shiny.png"
@@ -2618,15 +2690,19 @@
 				}
 				id: "24E1F7CCFADC8B65"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:wailmer"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: true
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: -3.0d
@@ -2641,19 +2717,24 @@
 				auto: "enabled"
 				id: "17D78EB74A0CCFCB"
 				item: {
+					components: {
+						"ftbquests:missing_item": "pokeblocks:pokedoll_shiny_wooper"
+					}
 					count: 1
-					id: "pokeblocks:pokedoll_shiny_wooper"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					components: {
 						"ftbquests:icon": "cobblemon:textures/gui/summary/icon_shiny.png"
@@ -2662,15 +2743,19 @@
 				}
 				id: "4DA61430C97B3094"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:wooper"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: true
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 1.0d
@@ -2685,19 +2770,24 @@
 				auto: "enabled"
 				id: "564749A695F2A393"
 				item: {
+					components: {
+						"ftbquests:missing_item": "pokeblocks:pokedoll_shiny_cubchoo"
+					}
 					count: 1
-					id: "pokeblocks:pokedoll_shiny_cubchoo"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					components: {
 						"ftbquests:icon": "cobblemon:textures/gui/summary/icon_shiny.png"
@@ -2706,15 +2796,19 @@
 				}
 				id: "573BD52216AA930B"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:cubchoo"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: true
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 2.0d
@@ -2729,19 +2823,24 @@
 				auto: "enabled"
 				id: "638B0C4861C44E57"
 				item: {
+					components: {
+						"ftbquests:missing_item": "pokeblocks:pokedoll_shiny_flaaffy"
+					}
 					count: 1
-					id: "pokeblocks:pokedoll_shiny_flaaffy"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					components: {
 						"ftbquests:icon": "cobblemon:textures/gui/summary/icon_shiny.png"
@@ -2750,15 +2849,19 @@
 				}
 				id: "6F73E79CF5846D43"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:flaaffy"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: true
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 3.0d
@@ -2773,19 +2876,24 @@
 				auto: "enabled"
 				id: "273CE3F5B5AA072C"
 				item: {
+					components: {
+						"ftbquests:missing_item": "pokeblocks:pokedoll_shiny_bellossom"
+					}
 					count: 1
-					id: "pokeblocks:pokedoll_shiny_bellossom"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					components: {
 						"ftbquests:icon": "cobblemon:textures/gui/summary/icon_shiny.png"
@@ -2794,15 +2902,19 @@
 				}
 				id: "4343A474312A9625"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:bellossom"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: true
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: -4.0d
@@ -2817,19 +2929,24 @@
 				auto: "enabled"
 				id: "4A2D8A0EFB9D3C7F"
 				item: {
+					components: {
+						"ftbquests:missing_item": "pokeblocks:pokedoll_shiny_smoliv"
+					}
 					count: 1
-					id: "pokeblocks:pokedoll_shiny_smoliv"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					components: {
 						"ftbquests:icon": "cobblemon:textures/gui/summary/icon_shiny.png"
@@ -2838,15 +2955,19 @@
 				}
 				id: "3192EA76A78761D0"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:smoliv"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: true
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 4.0d
@@ -2861,19 +2982,24 @@
 				auto: "enabled"
 				id: "732B4ACDE8A8EDBF"
 				item: {
+					components: {
+						"ftbquests:missing_item": "pokeblocks:pokedoll_shiny_sentret"
+					}
 					count: 1
-					id: "pokeblocks:pokedoll_shiny_sentret"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					components: {
 						"ftbquests:icon": "cobblemon:textures/gui/summary/icon_shiny.png"
@@ -2882,15 +3008,19 @@
 				}
 				id: "12D95E668DE6DFDB"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:sentret"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: true
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: -5.0d
@@ -2905,19 +3035,24 @@
 				auto: "enabled"
 				id: "4167202B89751FC1"
 				item: {
+					components: {
+						"ftbquests:missing_item": "pokeblocks:pokedoll_shiny_mareep"
+					}
 					count: 1
-					id: "pokeblocks:pokedoll_shiny_mareep"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					components: {
 						"ftbquests:icon": "cobblemon:textures/gui/summary/icon_shiny.png"
@@ -2926,15 +3061,19 @@
 				}
 				id: "007ABDA76E720018"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:mareep"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: true
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 5.0d
@@ -2949,19 +3088,24 @@
 				auto: "enabled"
 				id: "69419918E94A351D"
 				item: {
+					components: {
+						"ftbquests:missing_item": "pokeblocks:pokedoll_shiny_piloswine"
+					}
 					count: 1
-					id: "pokeblocks:pokedoll_shiny_piloswine"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					components: {
 						"ftbquests:icon": "cobblemon:textures/gui/summary/icon_shiny.png"
@@ -2970,15 +3114,19 @@
 				}
 				id: "44B0861AD7698CF6"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:piloswine"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: true
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: -6.0d
@@ -2993,19 +3141,24 @@
 				auto: "enabled"
 				id: "5A7F2BD35F8F72D7"
 				item: {
+					components: {
+						"ftbquests:missing_item": "pokeblocks:pokedoll_shiny_dolliv"
+					}
 					count: 1
-					id: "pokeblocks:pokedoll_shiny_dolliv"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					components: {
 						"ftbquests:icon": "cobblemon:textures/gui/summary/icon_shiny.png"
@@ -3014,15 +3167,19 @@
 				}
 				id: "58498E425D1E68CA"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:dolliv"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: true
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 6.0d
@@ -3037,19 +3194,24 @@
 				auto: "enabled"
 				id: "1696A0FB8946A79B"
 				item: {
+					components: {
+						"ftbquests:missing_item": "pokeblocks:shiny_applin_basket"
+					}
 					count: 1
-					id: "pokeblocks:shiny_applin_basket"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					components: {
 						"ftbquests:icon": "cobblemon:textures/gui/summary/icon_shiny.png"
@@ -3058,15 +3220,19 @@
 				}
 				id: "617033D8AB293084"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:applin"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: true
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: -7.0d
@@ -3081,19 +3247,24 @@
 				auto: "enabled"
 				id: "763A889E276E2BD3"
 				item: {
+					components: {
+						"ftbquests:missing_item": "pokeblocks:pokedoll_shiny_cetoddle"
+					}
 					count: 1
-					id: "pokeblocks:pokedoll_shiny_cetoddle"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					components: {
 						"ftbquests:icon": "cobblemon:textures/gui/summary/icon_shiny.png"
@@ -3102,15 +3273,19 @@
 				}
 				id: "2606B66894F2AF2F"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:cetoddle"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: true
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 7.0d
@@ -3125,19 +3300,24 @@
 				auto: "enabled"
 				id: "211355943CDCAD24"
 				item: {
+					components: {
+						"ftbquests:missing_item": "pokeblocks:pokedoll_shiny_eiscue"
+					}
 					count: 1
-					id: "pokeblocks:pokedoll_shiny_eiscue"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					components: {
 						"ftbquests:icon": "cobblemon:textures/gui/summary/icon_shiny.png"
@@ -3146,15 +3326,19 @@
 				}
 				id: "31AFA3212A0457AC"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:eiscue"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: true
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: -8.0d
@@ -3169,19 +3353,24 @@
 				auto: "enabled"
 				id: "54FFE89E28AA811A"
 				item: {
+					components: {
+						"ftbquests:missing_item": "pokeblocks:pokedoll_shiny_swinub"
+					}
 					count: 1
-					id: "pokeblocks:pokedoll_shiny_swinub"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					components: {
 						"ftbquests:icon": "cobblemon:textures/gui/summary/icon_shiny.png"
@@ -3190,15 +3379,19 @@
 				}
 				id: "75C361F68DC02EBB"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:swinub"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: true
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 8.0d
@@ -3212,31 +3405,36 @@
 			rewards: [{
 				auto: "enabled"
 				id: "4F9492A57C2A570F"
-				table_id: 2244545329447674547L
 				type: "random"
 			}]
 			tasks: [{
 				action: "revive_fossil"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					id: "cobblemon:restoration_tank"
 				}
 				id: "07DA6A23BE92A9C9"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 0.0d
@@ -3250,31 +3448,36 @@
 			rewards: [{
 				auto: "enabled"
 				id: "66A5AA0C8A6748AC"
-				table_id: 1462000927389107179L
 				type: "random"
 			}]
 			tasks: [{
 				action: "revive_fossil"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					id: "cobblemon:restoration_tank"
 				}
 				id: "25830AA56BA93BAB"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: -1.0d
@@ -3288,31 +3491,36 @@
 			rewards: [{
 				auto: "enabled"
 				id: "1F35069034E0AF3F"
-				table_id: 2461263688498572531L
 				type: "random"
 			}]
 			tasks: [{
 				action: "revive_fossil"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					id: "cobblemon:restoration_tank"
 				}
 				id: "2A957D78029D0CE6"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 1.0d
@@ -3326,31 +3534,36 @@
 			rewards: [{
 				auto: "enabled"
 				id: "213B90B0A77CD6FF"
-				table_id: 6088157839739471057L
 				type: "random"
 			}]
 			tasks: [{
 				action: "reel"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					id: "cobblemon:dive_rod"
 				}
 				id: "258B302ACEB88877"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 0.0d
@@ -3365,19 +3578,24 @@
 				auto: "enabled"
 				id: "5E9084F1BAA69BA9"
 				item: {
+					components: {
+						"ftbquests:missing_item": "pokeblocks:pokedoll_shiny_sandygast"
+					}
 					count: 1
-					id: "pokeblocks:pokedoll_shiny_sandygast"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					components: {
 						"ftbquests:icon": "cobblemon:textures/gui/summary/icon_shiny.png"
@@ -3386,15 +3604,19 @@
 				}
 				id: "65AE843B4E081AC6"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:sandygast"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: true
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 9.0d
@@ -3408,31 +3630,39 @@
 			rewards: [{
 				auto: "enabled"
 				id: "7ED71BEC9516A31D"
-				table_id: 119326059834532008L
 				type: "random"
 			}]
 			tasks: [{
 				action: "evolve_into"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
-					id: "cobblemon_utility:mastercandy"
+					components: {
+						"ftbquests:missing_item": "cobblemon_utility:mastercandy"
+					}
+					id: "ftbquests:missing_item"
 				}
 				id: "6CBD9170F92B41E5"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:charizard"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 0.0d
@@ -3446,33 +3676,42 @@
 			rewards: [{
 				id: "776F7C76157068C5"
 				item: {
+					components: {
+						"ftbquests:missing_item": "pokeblocks:pokedoll_shiny_calyrex"
+					}
 					count: 1
-					id: "pokeblocks:pokedoll_shiny_calyrex"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					id: "cobblemon:master_ball"
 				}
 				id: "2D1BAC5E2CEF2A8C"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:calyrex"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: -0.5d
@@ -3486,33 +3725,42 @@
 			rewards: [{
 				id: "24295A59C6F38979"
 				item: {
+					components: {
+						"ftbquests:missing_item": "pokeblocks:pokedoll_shiny_kyogre"
+					}
 					count: 1
-					id: "pokeblocks:pokedoll_shiny_kyogre"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				action: "catch"
 				amount: 1L
+				aspects: ""
 				biome: ""
 				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				icon: {
 					id: "cobblemon:master_ball"
 				}
 				id: "35CD2AD2BDC5D7F6"
 				max_level: 0
+				max_turns: 0
 				min_level: 0
+				moves: ""
 				natures: ""
 				poke_ball_used: ""
 				pokemon: "cobblemon:kyogre"
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 0.5d

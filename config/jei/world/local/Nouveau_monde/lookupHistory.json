@@ -1,5 +1,10 @@
 [
   {"version":1},
+  {"ingredient":{"id":"cobblemon:exp_candy_xl"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ftbquests:missing_item","components":{"ftbquests:missing_item":"pokeblocks:pokedoll_shiny_quagsire"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deeperdarker:sculk_bone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deeperdarker:soul_crystal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deeperdarker:heart_of_the_deep"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:spruce_trapdoor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mega_showdown:prison_bottle"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mega_showdown:sweet_max_soup"},"type":"item_stack","bookmarkType":"INGREDIENT"},

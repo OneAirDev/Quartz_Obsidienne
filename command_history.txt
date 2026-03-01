@@ -31,3 +31,9 @@
 /pokegive snorlax dynamax_form
 /reload
 /pokegive acideon
+/locate structure minecraft:ancient_city
+/tp @s 160 ~ -1072
+/gamemode spectator
+/gamemode survival
+/gamemode creative
+/kill
