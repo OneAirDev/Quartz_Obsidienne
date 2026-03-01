@@ -30,3 +30,4 @@
 /pokegive zoroark hisuian=true
 /pokegive snorlax dynamax_form
 /reload
+/pokegive acideon
