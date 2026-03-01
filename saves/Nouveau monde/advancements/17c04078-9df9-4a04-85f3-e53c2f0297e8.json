@@ -119,5 +119,11 @@
     },
     "done": true
   },
+  "biomeswevegone:biomeswevegone/root": {
+    "criteria": {
+      "tick": "2026-03-01 19:22:59 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
