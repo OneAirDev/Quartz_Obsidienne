@@ -1,0 +1,18 @@
+{
+	version: 1
+	uuid: "17c040789df94a0485f3e53c2f0297e8"
+	name: "Garyad#17c04078"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	repeatable: { }
+	completion_count: { }
+	claimed_rewards: { }
+	player_data: {
+		17c040789df94a0485f3e53c2f0297e8: {
+			can_edit: 1b
+		}
+	}
+}
