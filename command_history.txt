@@ -37,3 +37,7 @@
 /gamemode survival
 /gamemode creative
 /kill
+/kill zephyr
+/gamerule doMobSpawning false
+/kill @a
+/reload
