@@ -95,5 +95,29 @@
     },
     "done": true
   },
+  "cobblemon:craft_base_balls": {
+    "criteria": {
+      "poke_ball": "2026-03-01 19:01:32 +0100"
+    },
+    "done": false
+  },
+  "cobblemon:recipes/misc/poke_rod": {
+    "criteria": {
+      "has_ball": "2026-03-01 19:01:32 +0100"
+    },
+    "done": false
+  },
+  "cobblemon:craft_all_balls": {
+    "criteria": {
+      "poke_ball": "2026-03-01 19:01:32 +0100"
+    },
+    "done": false
+  },
+  "cobblemon:craft_poke_ball": {
+    "criteria": {
+      "requirement": "2026-03-01 19:01:32 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
