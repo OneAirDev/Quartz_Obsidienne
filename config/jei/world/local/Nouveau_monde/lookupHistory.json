@@ -1,5 +1,6 @@
 [
   {"version":1},
+  {"ingredient":{"id":"minecraft:spruce_trapdoor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mega_showdown:prison_bottle"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mega_showdown:sweet_max_soup"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mega_showdown:max_honey"},"type":"item_stack","bookmarkType":"INGREDIENT"},

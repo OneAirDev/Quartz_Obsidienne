@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rct"
+	group: "58FE79368606CEE3"
+	icon: {
+		id: "rctmod:trainer_card"
+	}
+	id: "40928943481D3589"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+}

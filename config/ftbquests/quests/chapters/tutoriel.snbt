@@ -1,0 +1,16 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tutoriel"
+	group: "7D81E439622A9C58"
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:item/axolotl_bucket"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "24EFE8D5D7B188C7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+}

@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pokdex"
+	group: "7D81E439622A9C58"
+	icon: {
+		id: "cobblemon:pokedex_red"
+	}
+	id: "41E5EB5820F7D48E"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+}

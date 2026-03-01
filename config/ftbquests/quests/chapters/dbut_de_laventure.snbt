@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dbut_de_laventure"
+	group: "7D81E439622A9C58"
+	icon: {
+		id: "mega_showdown:lisia_mega_tiara"
+	}
+	id: "2CFCEDB19EC3F484"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}

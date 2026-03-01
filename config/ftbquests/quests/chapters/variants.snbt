@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "variants"
+	group: "7B208F910CEF8C21"
+	id: "5FE8E0D7FC524399"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+}

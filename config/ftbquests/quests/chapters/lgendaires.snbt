@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lgendaires"
+	group: "7B208F910CEF8C21"
+	icon: {
+		id: "cobblemon:clear_amulet"
+	}
+	id: "3334983E4F6620BC"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+}

@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "class"
+	group: "58FE79368606CEE3"
+	id: "1087F6AE1150B528"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}
