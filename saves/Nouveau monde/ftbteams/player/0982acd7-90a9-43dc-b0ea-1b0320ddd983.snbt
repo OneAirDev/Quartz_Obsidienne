@@ -1,0 +1,18 @@
+{
+	id: "0982acd7-90a9-43dc-b0ea-1b0320ddd983"
+	type: "player"
+	player_name: "Drunna"
+	ranks: {
+		0982acd7-90a9-43dc-b0ea-1b0320ddd983: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Drunna"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FF61"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbteams:team_stages": [ ]
+	}
+	message_history: [ ]
+	extra: { }
+}

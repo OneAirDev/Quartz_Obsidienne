@@ -1,5 +1,6 @@
 [
   {"version":1},
+  {"ingredient":{"id":"chipped:broken_glowstone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"aether:cockatrice_spawn_egg"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"cobblemon:exp_candy_xl"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ftbquests:missing_item","components":{"ftbquests:missing_item":"pokeblocks:pokedoll_shiny_quagsire"}},"type":"item_stack","bookmarkType":"INGREDIENT"},

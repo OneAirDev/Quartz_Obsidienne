@@ -41,3 +41,5 @@
 /gamerule doMobSpawning false
 /kill @a
 /reload
+/spawn
+/kill

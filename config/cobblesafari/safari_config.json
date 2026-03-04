@@ -1,0 +1,13 @@
+{
+  "dailySafariBallsCount": 16,
+  "enableEntryFee": false,
+  "entryFee": "cobblesafari:ticket_safari",
+  "cobbledollarEntryFee": false,
+  "entryFeeAmount": 5000,
+  "allowMultiplePayment": false,
+  "teleporterRadius": 5000,
+  "balloonSafariEnabled": true,
+  "balloonSafariMinDrop": 1,
+  "balloonSafariMaxDrop": 4,
+  "balloonSafariSpawnMultiplier": 1.0
+}
