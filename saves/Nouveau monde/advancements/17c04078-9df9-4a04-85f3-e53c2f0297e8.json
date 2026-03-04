@@ -111,7 +111,8 @@
   },
   "cobblemon:craft_all_balls": {
     "criteria": {
-      "poke_ball": "2026-03-01 19:01:32 +0100"
+      "poke_ball": "2026-03-01 19:01:32 +0100",
+      "safari_ball": "2026-03-05 00:31:06 +0100"
     },
     "done": false
   },
@@ -542,6 +543,12 @@
       "has_beef": "2026-03-02 00:04:01 +0100"
     },
     "done": true
+  },
+  "cobblemon:recipes/misc/safari_rod": {
+    "criteria": {
+      "has_ball": "2026-03-05 00:31:06 +0100"
+    },
+    "done": false
   },
   "DataVersion": 3955
 }
