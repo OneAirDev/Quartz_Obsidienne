@@ -43,3 +43,4 @@
 /reload
 /spawn
 /kill
+/gamemode creative

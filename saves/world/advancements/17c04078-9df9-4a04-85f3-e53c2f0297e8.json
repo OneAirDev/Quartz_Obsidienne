@@ -1,0 +1,33 @@
+{
+  "biomeswevegone:biomeswevegone/root": {
+    "criteria": {
+      "tick": "2026-03-05 01:00:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-03-05 01:00:24 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:root": {
+    "criteria": {
+      "picked_starter": "2026-03-05 01:00:49 +0100"
+    },
+    "done": true
+  },
+  "mega_showdown:mega_showdown/root": {
+    "criteria": {
+      "root": "2026-03-05 01:00:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:lukewarm_ocean": "2026-03-05 01:00:25 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3955
+}
